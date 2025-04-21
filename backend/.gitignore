@@ -1,0 +1,15 @@
+# backend/.gitignore
+
+# Python virtual environment
+../venv/
+
+# Environment variables file
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE specific files (add others like .vscode/ if needed)
+.idea/
