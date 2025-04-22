@@ -5,7 +5,8 @@ const loadingDiv = document.getElementById('loading');
 const errorDiv = document.getElementById('error-message');
 
 // Define the backend URL (Flask default)
-const BACKEND_URL = 'http://127.0.0.1:5000'; // Adjust if your backend runs elsewhere
+//const BACKEND_URL = 'http://127.0.0.1:5000'; // Adjust if your backend runs elsewhere
+const BACKEND_URL = 'https://spanish-app-backend.onrender.com';
 
 generateBtn.addEventListener('click', async () => {
     const n = numLessonsInput.value;
