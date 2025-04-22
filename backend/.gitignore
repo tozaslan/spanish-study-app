@@ -6,6 +6,9 @@
 # Environment variables file
 .env
 
+# Service Account key files
+*.json
+
 # Python cache files
 __pycache__/
 *.pyc

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Ejercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generador de Ejercicios de Español</h1>
+
+    <div>
+        <label for="num-lessons">Generar ejercicios para las últimas:</label>
+        <input type="number" id="num-lessons" value="3" min="1">
+        <label for="num-lessons">lecciones</label>
+        <button id="generate-btn">Generar</button>
+    </div>
+
+    <div id="loading" style="display: none;">Cargando...</div>
+    <div id="error-message" style="color: red;"></div>
+    <div id="results">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
