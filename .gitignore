@@ -1,0 +1,21 @@
+# backend/.gitignore
+
+# Python virtual environment
+venv/
+
+# Environment variables file
+.env
+backend/.env
+
+# Service Account key files
+backend/*.json
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files (examples)
+.idea/
+.vscode/
