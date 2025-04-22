@@ -173,7 +173,11 @@ def generate_exercises():
         {extracted_text}
         --- END NOTES ---
 
-        Please generate exactly 5 Spanish practice exercises directly related to this content. Include a mix of exercise types if possible (e.g., multiple-choice, fill-in-the-blank).
+        Please generate exactly 10 Spanish practice exercises not exactly but related to this content. 
+        This content is for a person whose level is B1 Spanish and will be using this content to practice.
+        Consider also adding 1-2 exercises outside from this content.
+        And make the last exercise as small 200 word story in spanish for a B1 level practice.
+        Include a mix of exercise types if possible (e.g., multiple-choice, fill-in-the-blank).
 
         Format the output STRICTLY as a JSON list of objects. Each object should represent one exercise and must have the following keys:
         - "type": A string indicating the exercise type (e.g., "multiple-choice", "fill-in-blank").
